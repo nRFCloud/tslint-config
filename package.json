@@ -1,0 +1,38 @@
+{
+  "name": "@nrfcloud/tslint-config",
+  "version": "1.0.0",
+  "description": "tslint configuration for our projects",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "commitlint -e",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nRFCloud/tslint-config.git"
+  },
+  "keywords": [
+    "nRFCloud",
+    "IoT",
+    "tslint"
+  ],
+  "author": "Nordic Semiconductor ASA | nordicsemi.no",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nRFCloud/tslint-config/issues"
+  },
+  "homepage": "https://github.com/nRFCloud/tslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "tslint.js"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^4.2.2",
+    "@commitlint/config-angular": "^4.2.1",
+    "husky": "^0.14.3",
+    "semantic-release": "^8.2.0"
+  }
+}
