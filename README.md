@@ -11,4 +11,4 @@ tslint configuration for our projects
 ## Usage
 
     npm i --save-dev @nrfcloud/tslint-config
-    echo '{"extends": "tslint-config-standard"}' > tslint.json
+    echo '{"extends": "@nrfcloud/tslint-config"}' > tslint.json
