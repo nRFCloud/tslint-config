@@ -30,7 +30,7 @@
     "tslint.js"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
+    "@commitlint/cli": "^5.0.0",
     "@commitlint/config-angular": "^4.2.1",
     "husky": "^0.14.3",
     "semantic-release": "^8.2.0"
