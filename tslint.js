@@ -55,7 +55,6 @@ module.exports = {
       "check-operator",
       "check-separator",
       "check-type"
-    ],
-    "strict": "never"
+    ]
   }
 }
