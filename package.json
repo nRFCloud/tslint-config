@@ -33,6 +33,6 @@
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-angular": "^6.0.2",
     "husky": "^0.14.3",
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^11.0.2"
   }
 }
