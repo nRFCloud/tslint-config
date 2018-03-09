@@ -5,9 +5,9 @@ cache:
 notifications:
   email: false
 before_install:
-  - npm -g i npmc
+  - npm -g i npm@
 install:
-  - npmc ci
+  - npm i
 script:
   - echo "No tests, yet"
 after_success:
