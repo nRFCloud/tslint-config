@@ -1,4 +1,4 @@
-module.exports = {
+{
   "rules": {
     "class-name": true,
     "comment-format": false,
@@ -11,6 +11,13 @@ module.exports = {
     "no-eval": true,
     "no-internal-module": true,
     "no-trailing-whitespace": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
     "no-unsafe-finally": true,
     "no-var-keyword": true,
     "no-reference": true,
