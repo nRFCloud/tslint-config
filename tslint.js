@@ -7,6 +7,7 @@ module.exports = {
       true,
       'spaces'
     ],
+    'no-default-export': true,
     'no-duplicate-variable': true,
     'no-eval': true,
     'no-internal-module': true,
