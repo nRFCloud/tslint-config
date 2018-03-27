@@ -1,67 +1,67 @@
-{
-  "rules": {
-    "class-name": true,
-    "comment-format": false,
-    "curly": true,
-    "indent": [
+module.exports = {
+  'rules': {
+    'class-name': true,
+    'comment-format': false,
+    'curly': true,
+    'indent': [
       true,
-      "spaces"
+      'spaces'
     ],
-    "no-duplicate-variable": true,
-    "no-eval": true,
-    "no-internal-module": true,
-    "no-trailing-whitespace": true,
-    "trailing-comma": [
+    'no-duplicate-variable': true,
+    'no-eval': true,
+    'no-internal-module': true,
+    'no-trailing-whitespace': true,
+    'trailing-comma': [
       true,
       {
-        "multiline": "always",
-        "singleline": "never"
+        'multiline': 'always',
+        'singleline': 'never'
       }
     ],
-    "no-unsafe-finally": true,
-    "no-var-keyword": true,
-    "no-reference": true,
-    "import-spacing": true,
-    "one-line": [
+    'no-unsafe-finally': true,
+    'no-var-keyword': true,
+    'no-reference': true,
+    'import-spacing': true,
+    'one-line': [
       true,
-      "check-open-brace",
-      "check-whitespace"
+      'check-open-brace',
+      'check-whitespace'
     ],
-    "quotemark": [
+    'quotemark': [
       true,
-      "single",
-      "jsx-double"
+      'single',
+      'jsx-double'
     ],
-    "semicolon": [
+    'semicolon': [
       true,
-      "always"
+      'always'
     ],
-    "triple-equals": [
+    'triple-equals': [
       true,
-      "allow-null-check"
+      'allow-null-check'
     ],
-    "typedef-whitespace": [
+    'typedef-whitespace': [
       true,
       {
-        "call-signature": "nospace",
-        "index-signature": "nospace",
-        "parameter": "nospace",
-        "property-declaration": "nospace",
-        "variable-declaration": "nospace"
+        'call-signature': 'nospace',
+        'index-signature': 'nospace',
+        'parameter': 'nospace',
+        'property-declaration': 'nospace',
+        'variable-declaration': 'nospace'
       }
     ],
-    "variable-name": [
+    'variable-name': [
       true,
-      "ban-keywords"
+      'ban-keywords'
     ],
-    "whitespace": [
+    'whitespace': [
       true,
-      "check-module",
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-separator",
-      "check-type"
+      'check-module',
+      'check-branch',
+      'check-decl',
+      'check-operator',
+      'check-separator',
+      'check-type'
     ]
   }
 }
