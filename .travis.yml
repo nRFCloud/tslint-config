@@ -1,20 +1,19 @@
 language: node_js
+node_js: '8'
 cache:
   directories:
-  - "$HOME/.npm"
+    - ~/.npm
 notifications:
   email: false
 before_install:
   - npm -g i npm@
+  - npm install -g greenkeeper-lockfile@1
 install:
   - npm i
-script:
-  - echo "No tests, yet"
-after_success:
-  - npmc run semantic-release
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+script: echo "No tests, yet"
+after_success: npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
-matrix:
-  include:
-    - node_js: '8'
