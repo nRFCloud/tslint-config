@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     'class-name': true,
-    'comment-format': [true, 'check-space', 'check-uppercase']
+    'comment-format': [true, 'check-space', 'check-uppercase'],
     'curly': true,
     'indent': [
       true,
