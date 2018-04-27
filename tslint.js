@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     'class-name': true,
-    'comment-format': false,
+    'comment-format': [true, 'check-space', 'check-uppercase']
     'curly': true,
     'indent': [
       true,
@@ -29,6 +29,7 @@ module.exports = {
       'check-open-brace',
       'check-whitespace'
     ],
+    'prefer-const': true,
     'quotemark': [
       true,
       'single',
@@ -64,6 +65,7 @@ module.exports = {
       'check-operator',
       'check-separator',
       'check-type'
-    ]
+    ],
+    'no-unused-variable': true
   }
 }
