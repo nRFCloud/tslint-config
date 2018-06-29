@@ -1,5 +1,6 @@
 module.exports = {
   'rules': {
+    'arrow-return-shorthand': true,
     'class-name': true,
     'comment-format': [true, 'check-space', 'check-uppercase'],
     'curly': true,
