@@ -2,7 +2,7 @@ module.exports = {
   'rules': {
     'arrow-return-shorthand': true,
     'class-name': true,
-    'comment-format': [true, 'check-space', 'check-uppercase'],
+    'comment-format': [true, 'check-space'],
     'curly': true,
     'indent': [
       true,
