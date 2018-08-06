@@ -68,7 +68,6 @@ module.exports = {
       'check-operator',
       'check-separator',
       'check-type'
-    ],
-    'no-unused-variable': true
+    ]
   }
 }
