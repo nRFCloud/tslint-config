@@ -13,6 +13,7 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-eval': true,
     'no-internal-module': true,
+    'no-return-await': true,
     'no-string-throw': true,
     'no-trailing-whitespace': true,
     'trailing-comma': [
