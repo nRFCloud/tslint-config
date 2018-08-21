@@ -41,7 +41,8 @@ module.exports = {
     ],
     'semicolon': [
       true,
-      'always'
+      'always',
+      'ignore-bound-class-methods'
     ],
     'triple-equals': [
       true,
