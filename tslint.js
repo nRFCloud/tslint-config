@@ -13,6 +13,7 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-eval': true,
     'no-internal-module': true,
+    'no-misused-new': true,
     'no-return-await': true,
     'no-string-throw': true,
     'no-trailing-whitespace': true,
@@ -23,6 +24,7 @@ module.exports = {
         'singleline': 'never'
       }
     ],
+    'no-unnecessary-type-assertion': true,
     'no-unsafe-finally': true,
     'no-var-keyword': true,
     'no-reference': true,
@@ -34,6 +36,7 @@ module.exports = {
       'check-whitespace'
     ],
     'prefer-const': true,
+    'prefer-readonly': true,
     'quotemark': [
       true,
       'single',
