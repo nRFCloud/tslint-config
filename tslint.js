@@ -12,6 +12,7 @@ module.exports = {
     'no-default-export': true,
     'no-duplicate-variable': true,
     'no-eval': true,
+    'no-floating-promises': true,
     'no-internal-module': true,
     'no-misused-new': true,
     'no-return-await': true,
