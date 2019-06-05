@@ -30,6 +30,7 @@ module.exports = {
     'no-var-keyword': true,
     'no-reference': true,
     'import-spacing': true,
+    'object-literal-key-quotes': [true, 'as-needed'],
     'object-literal-shorthand': true,
     'one-line': [
       true,
