@@ -4,6 +4,7 @@ module.exports = {
     'class-name': true,
     'comment-format': [true, 'check-space'],
     'curly': true,
+    'eofline': true,
     'indent': [
       true,
       'spaces'
