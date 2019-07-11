@@ -1,12 +1,12 @@
 module.exports = {
-  'rules': {
+  rules: {
     'arrow-return-shorthand': true,
     'ban-comma-operator': true,
     'class-name': true,
     'comment-format': [true, 'check-space'],
-    'curly': true,
-    'eofline': true,
-    'indent': [
+    curly: true,
+    eofline: true,
+    indent: [
       true,
       'spaces'
     ],
@@ -23,8 +23,8 @@ module.exports = {
     'trailing-comma': [
       true,
       {
-        'multiline': 'always',
-        'singleline': 'never'
+        multiline: 'always',
+        singleline: 'never'
       }
     ],
     'no-unnecessary-type-assertion': true,
@@ -41,12 +41,12 @@ module.exports = {
     ],
     'prefer-const': true,
     'prefer-readonly': true,
-    'quotemark': [
+    quotemark: [
       true,
       'single',
       'jsx-double'
     ],
-    'semicolon': [
+    semicolon: [
       true,
       'always',
       'ignore-bound-class-methods'
@@ -60,7 +60,7 @@ module.exports = {
       {
         'call-signature': 'nospace',
         'index-signature': 'nospace',
-        'parameter': 'nospace',
+        parameter: 'nospace',
         'property-declaration': 'nospace',
         'variable-declaration': 'nospace'
       }
@@ -69,7 +69,7 @@ module.exports = {
       true,
       'ban-keywords'
     ],
-    'whitespace': [
+    whitespace: [
       true,
       'check-module',
       'check-branch',
