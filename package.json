@@ -1,6 +1,6 @@
 {
   "name": "@nrfcloud/tslint-config",
-  "version": "0.0.0-development",
+  "version": "3.11.0",
   "description": "tslint configuration for our projects",
   "main": "tslint.js",
   "scripts": {
