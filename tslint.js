@@ -10,7 +10,7 @@ module.exports = {
       true,
       'spaces'
     ],
-    'only-arrow-functions': true,
+    'prefer-arrow-callback': true,
     'no-default-export': true,
     'no-duplicate-variable': true,
     'no-eval': true,
